@@ -32,7 +32,7 @@ void input()
 
 
 
-void LinierSearch()
+void LinearSearch()
 {
 	char ch;
 	int comparison; // Number of comparisons
@@ -62,4 +62,11 @@ void LinierSearch()
 		cout << "\nContinue search (y/n): ";
 		cin >> ch;
 	} while ((ch == 'y') || (ch == 'Y'));
+}
+
+
+int main()
+{
+	input();
+	LinearSearch();
 }
